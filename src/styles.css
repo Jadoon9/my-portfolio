@@ -32,6 +32,11 @@ body {
   @apply block w-12 h-2 bg-theme rounded-full mb-1
 }
 
+.name-title::after {
+  content: '';
+  @apply block w-28 h-2 bg-theme rounded-full mt-1
+}
+
 .section-paragraph {
   @apply text-secondary my-6 w-full max-w-3xl
 }
